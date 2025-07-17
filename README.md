@@ -95,7 +95,7 @@ Expo Go app on your iOS/Android device (download from App Store/Google Play) or 
 Installation
 Clone the repository (or download the project files):
 
-git clone https://github.com/your-username/MySimplifiedContactsApp.git
+git clone https://github.com/nikgup6/Contacts_App.git
 cd MySimplifiedContactsApp
 
 (If you downloaded directly, just cd into your project folder)
