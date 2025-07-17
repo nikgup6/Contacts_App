@@ -1,8 +1,13 @@
 My Simplified Contacts App
 🌟 The Problem I Tackled
 Ever found yourself staring at an incoming call, trying to decipher a contact name like "Hyd- Ravi Audi Dealer Sharma's brother" and wondering, "Wait, which Ravi is this?!" I certainly did, looking at my parents' phones! It's a common struggle: contact names often become long, unstructured strings that fail us precisely when we need instant recognition – during an incoming call. This not only clutters the screen but can lead to awkward "Who is this?" moments.
-![IMG-20250718-WA0002](https://github.com/user-attachments/assets/0a5ad830-873d-4d68-9dbc-4a4a176cc754)
-![IMG-20250718-WA0001](https://github.com/user-attachments/assets/a847e20e-c93b-47c2-b335-47b5045d6425)
+
+
+
+
+<img src="https://github.com/user-attachments/assets/0a5ad830-873d-4d68-9dbc-4a4a176cc754" alt="Alt Text" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/a847e20e-c93b-47c2-b335-47b5045d6425" alt="Alt Text" width="300" height="500">
+
 
 I saw a problem, and instead of waiting for a project brief, I decided to build a solution myself.
 
@@ -44,11 +49,16 @@ Real-time Data Persistence: All your contacts are securely saved and synchronize
 Seamless User Interface: Focused on a smooth and delightful user experience, from adding contacts with user-friendly radio buttons for display preferences, to quick search and intuitive navigation.
 
 📸 Screenshots
-![IMG-20250718-WA0004](https://github.com/user-attachments/assets/c9f48277-303f-4943-9a08-12592fd49ba3)
-![WhatsApp Image 2025-07-18 at 01 54 49_ce08c666](https://github.com/user-attachments/assets/1cccfebe-bdb2-432a-a30a-55924eb3dbf7)
-![WhatsApp Image 2025-07-18 at 01 54 19_0b475db4](https://github.com/user-attachments/assets/d581750d-81e1-450c-9afd-72c7a0681558)
-![IMG-20250718-WA0003](https://github.com/user-attachments/assets/19bb78e3-f3fb-4f63-9772-5ef09ad6ce13)
-![IMG-20250718-WA0005](https://github.com/user-attachments/assets/711d5115-97b9-4aea-b994-38832d9860c9)
+
+
+
+
+
+<img src="https://github.com/user-attachments/assets/c9f48277-303f-4943-9a08-12592fd49ba3" alt="Alt Text" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/1cccfebe-bdb2-432a-a30a-55924eb3dbf7" alt="Alt Text" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/d581750d-81e1-450c-9afd-72c7a0681558" alt="Alt Text" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/19bb78e3-f3fb-4f63-9772-5ef09ad6ce13" alt="Alt Text" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/711d5115-97b9-4aea-b994-38832d9860c9" alt="Alt Text" width="300" height="500">
 
 
 🛠 Technologies Used
