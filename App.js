@@ -17,6 +17,7 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import * as ImagePicker from 'expo-image-picker'; // New import for image picker
+import Constants from 'expo-constants'; // Add this line
 import { Picker } from '@react-native-picker/picker'; // Ensure this is correctly imported
 
 // Firebase Imports (MUST BE USED)
@@ -41,13 +42,13 @@ import {
 // --- Firebase Configuration & Initialization ---
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 const firebaseConfig = {
-  apiKey: "AIzaSyBRzUvfO2OjKR_ccJ9jGCpLqvhACv5hc6o",
-  authDomain: "contactsapp-45be8.firebaseapp.com",
-  projectId: "contactsapp-45be8",
-  storageBucket: "contactsapp-45be8.firebasestorage.app",
-  messagingSenderId: "857597145825",
-  appId: "1:857597145825:web:368425fafa052a4950bda0",
-  measurementId: "G-7M215L2R4G"
+  apiKey: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_APP_ID,
+  // measurementId: Constants.expoConfig.extra.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID, // Uncomment if you use it
 };
 const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
